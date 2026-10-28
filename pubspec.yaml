@@ -1,0 +1,36 @@
+name: ecoruta
+description: EcoRuta - Recicla hoy, transforma el mañana. Reciclaje comunitario en Ñuñoa.
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+# NOTA: versiones SIN VERIFICAR contra tu SDK. Ejecuta `flutter pub get` y,
+# si hay conflictos, usa `flutter pub upgrade --major-versions`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  sqflite: ^2.3.3
+  sqflite_common_ffi: ^2.3.4
+  sqlite3_flutter_libs: ^0.5.24
+  path: ^1.9.0
+  intl: ^0.20.3
+  shared_preferences: ^2.2.3
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  geolocator: ^12.0.0
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
