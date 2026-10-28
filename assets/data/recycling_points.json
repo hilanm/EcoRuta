@@ -1,0 +1,56 @@
+{
+  "_nota": "Solo se incluyen datos que aparecen en páginas oficiales de la Municipalidad de Ñuñoa. latitude/longitude en null = coordenadas SIN verificar (no se inventan). Para ubicarlos en el mapa, agrega las coordenadas reales y pon coordinatesVerified en true. verification: 'verified' | 'demo'.",
+  "points": [
+    {
+      "id": "nunoa-raee-plaza-nunoa",
+      "name": "Campana de residuos electrónicos — Plaza Ñuñoa",
+      "address": "Irarrázaval 3550 (Plaza Ñuñoa norte), Ñuñoa",
+      "latitude": -33.4547,
+      "longitude": -70.5936,
+      "coordinatesVerified": true,
+      "materials": ["electronic"],
+      "schedule": null,
+      "description": "Campana para residuos electrónicos de hasta 50 cm (celulares, teclados, mouse, pendrives, radios, cables, audífonos, cámaras, entre otros), en convenio con Pañiwe.",
+      "phone": null,
+      "website": "https://www.nunoa.cl/alo-cachureos-en-nunoa/",
+      "source": "Municipalidad de Ñuñoa (nunoa.cl y cuenta oficial @MuniNunoa)",
+      "lastVerified": "2026-10-27",
+      "verification": "verified",
+      "statusNote": "Según la Municipalidad, esta campana está temporalmente fuera de servicio por vandalismo y en proceso de reposición. Confirma antes de ir."
+    },
+    {
+      "id": "nunoa-raee-parque-botanico",
+      "name": "Campana de residuos electrónicos — Parque Botánico",
+      "address": "Parque Botánico, acceso por calle Echeñique, Ñuñoa",
+      "latitude": -33.4454,
+      "longitude": -70.5863,
+      "coordinatesVerified": true,
+      "materials": ["electronic"],
+      "schedule": null,
+      "description": "Campana para residuos electrónicos de hasta 50 cm, en convenio con Pañiwe.",
+      "phone": null,
+      "website": "https://www.nunoa.cl/alo-cachureos-en-nunoa/",
+      "source": "Municipalidad de Ñuñoa (nunoa.cl)",
+      "lastVerified": "2026-10-27",
+      "verification": "verified",
+      "statusNote": "Según la Municipalidad, esta campana está temporalmente fuera de servicio por vandalismo. Confirma antes de ir."
+    },
+    {
+      "id": "demo-1",
+      "name": "PUNTO DE DEMOSTRACIÓN (no es un punto real)",
+      "address": "Ubicación ficticia, solo para probar el mapa",
+      "latitude": -33.4569,
+      "longitude": -70.5976,
+      "coordinatesVerified": false,
+      "materials": ["plastic", "glass", "paper"],
+      "schedule": null,
+      "description": "Dato de ejemplo para comprobar marcadores, filtros y la ficha. No existe en la realidad.",
+      "phone": null,
+      "website": null,
+      "source": "Dato demostrativo de EcoRuta",
+      "lastVerified": null,
+      "verification": "demo",
+      "statusNote": null
+    }
+  ]
+}
